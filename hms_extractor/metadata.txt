@@ -1,0 +1,24 @@
+[general]
+name=HMS Extractor
+qgisMinimumVersion=3.22
+qgisMaximumVersion=3.99
+version=1.0.0
+
+description=Extrae elementos de HEC-HMS (.basin) y shapefiles activos del Background Layer; genera líneas downstream y crea geometrías para subbasins, junctions, reservoirs, reaches y conexiones de flujo.
+
+about=HMS Extractor permite leer proyectos HEC-HMS, identificar y procesar elementos de un archivo .basin, generar shapefiles con atributos (incluyendo parámetros hidrológicos de subcuencas), reconstruir conexiones hidráulicas, crear flowpaths y cargar automáticamente los shapefiles del Background Layer definidos en el .basin. Incluye simbología, orden de capas y parámetros completos por subcuenca para análisis dentro de QGIS.
+
+author=Julio Gago
+email=Jgago16@gmail.com
+
+category=Hydrology
+tags=python;hydrology;hechms;gis
+
+icon=icon.png
+
+homepage=https://github.com/cesardgs/HMSExtractor
+tracker=https://github.com/cesardgs/HMSExtractor/issues
+repository=https://github.com/cesardgs/HMSExtractor
+
+experimental=False
+deprecated=False
