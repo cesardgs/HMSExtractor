@@ -1,5 +1,0 @@
-<RCC>
-    <qresource prefix="/plugins/hms_extractor_pro" >
-        <file>icon.png</file>
-    </qresource>
-</RCC>
